@@ -1,4 +1,8 @@
 package main.java;
+
+import main.java.datass.RequestData;
+import main.java.datass.SendData;
+
 import java.io.InputStream;
 import java.net.*;
 import java.io.*;
@@ -29,22 +33,26 @@ public class mmmmmmmSerber {
 
             //basically print to the client via FACTS yes yum facts i eat truth for breaky
             PrintStream printstream = new PrintStream(socket.getOutputStream(), true);
+            SendData thedatathatyouwillsendviacarrierpigeontogototheplace;
 
-            //Payload and itsjfaiweuf lengt:>
-            String payload =
-                    "<p>HA IMAGINE REQUESTING FOR " + requestData.getHeader() + " COULD NOT BE ME IMAGINE</p> " +
-                    "<p>HAHAHAHHAHAHAHAHA</p>";
-            int payloadLength = payload.length();
+            File afileofdoomanddestructionandmaybechad = new File("src/main/resources/" + requestData.getHeader() + ".html");
 
-            //send th actual thingy
-            printstream.println("HTTP/1.1 200 OK"); //header to confirm that this is ok everything is fine and we are not rapidly approaching our imminent deaths
-            printstream.println("Content-Type: text/html"); //Type of content :P
-            printstream.println("Content-Length: " + payloadLength); //Length of the thingy snake brrrrrrrrrrrr:0
-            printstream.println(); // newline
-            printstream.println(payload); //actual payload :0
+            if (afileofdoomanddestructionandmaybechad.isFile()) {
+                thedatathatyouwillsendviacarrierpigeontogototheplace = new SendData(
+                        new File("src/main/resources/" + requestData.getHeader() + ".html")
+                );
+            } else {
+                String payload =
+                        "<p>HA IMAGINE REQUESTING FOR " + requestData.getHeader() + " COULD NOT BE ME IMAGINE</p> " +
+                        "<p>HAHAHAHHAHAHAHAHA</p>";
+                thedatathatyouwillsendviacarrierpigeontogototheplace = new SendData(payload);
+            }
+
+            printstream.println(thedatathatyouwillsendviacarrierpigeontogototheplace.getFormattedPayload()); //ive oversiimplified. i am not sphere.
+            System.out.println(thedatathatyouwillsendviacarrierpigeontogototheplace.getFormattedPayload());
 
             //keep track of how many people youve served a knuckle or chuckle sandwich
-            //System.out.println("served");
+            System.out.println("served");
         }
     }
 }

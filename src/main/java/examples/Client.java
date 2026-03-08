@@ -1,4 +1,4 @@
-package main.java;
+package main.java.examples;
 
 import java.io.*;
 import java.net.*;

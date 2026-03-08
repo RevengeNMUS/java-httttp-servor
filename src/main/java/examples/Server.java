@@ -1,8 +1,7 @@
-package main.java;
+package main.java.examples;
 
 import java.io.IOException;
 import java.io.PrintStream;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.util.Scanner;
 
