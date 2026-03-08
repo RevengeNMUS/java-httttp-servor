@@ -25,15 +25,14 @@ public class mmmmmmmSerber {
             //actually me do know
             Scanner inScan = new Scanner(inputStream);
             String requestion = inScan.nextLine();
-            String[] requestionSplits = requestion.split(" ");
-            String shamingString = requestionSplits[1];
+            RequestData requestData = new RequestData(requestion);
 
             //basically print to the client via FACTS yes yum facts i eat truth for breaky
             PrintStream printstream = new PrintStream(socket.getOutputStream(), true);
 
             //Payload and itsjfaiweuf lengt:>
             String payload =
-                    "<p>HA IMAGINE REQUESTING FOR " + shamingString + " COULD NOT BE ME IMAGINE</p> " +
+                    "<p>HA IMAGINE REQUESTING FOR " + requestData.getHeader() + " COULD NOT BE ME IMAGINE</p> " +
                     "<p>HAHAHAHHAHAHAHAHA</p>";
             int payloadLength = payload.length();
 
