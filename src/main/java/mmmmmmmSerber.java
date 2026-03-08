@@ -35,11 +35,12 @@ public class mmmmmmmSerber {
             PrintStream printstream = new PrintStream(socket.getOutputStream(), true);
             SendData thedatathatyouwillsendviacarrierpigeontogototheplace;
 
-            File afileofdoomanddestructionandmaybechad = new File("src/main/resources/" + requestData.getHeader() + ".html");
+            System.out.println();
+            File afileofdoomanddestructionandmaybechad = new File("src/main/resources/hattoboganmilanolinconfiles" + requestData.getHeader() + ".html");
 
             if (afileofdoomanddestructionandmaybechad.isFile()) {
                 thedatathatyouwillsendviacarrierpigeontogototheplace = new SendData(
-                        new File("src/main/resources/" + requestData.getHeader() + ".html")
+                        afileofdoomanddestructionandmaybechad
                 );
             } else {
                 String payload =

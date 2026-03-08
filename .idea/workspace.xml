@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a25e04-14e9-4e86-baf8-5f79517aeda1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datass/SendData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/youareaburger.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RequestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datass/RequestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RequestType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datass/RequestType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mmmmmmmSerber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mmmmmmmSerber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/istolethisexample.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hattoboganmilanolinconfiles/istolethisexample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/youareaburger.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hattoboganmilanolinconfiles/youareaburger.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +60,11 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rathan M\Documents\java-httttp-servor\src\main\resources\hattoboganmilanolinconfiles" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
