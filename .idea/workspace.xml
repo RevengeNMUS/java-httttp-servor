@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a25e04-14e9-4e86-baf8-5f79517aeda1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/datass/ContentCreationIsHard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datass/ServerTempleRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/datass/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mmmmmmmSerber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mmmmmmmSerber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/istolethisexample.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hattoboganmilanolinconfiles/istolethisexample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/youareaburger.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hattoboganmilanolinconfiles/youareaburger.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datass/SendData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datass/SendData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,19 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Client.executor": "Run",
-    "Application.mmmmmmmSerber.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mmmmmmmSerber.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rathan M\Documents\java-httttp-servor\src\main\resources\hattoboganmilanolinconfiles" />
