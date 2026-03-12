@@ -29,14 +29,16 @@ public class SendData {
 
         } catch (FileNotFoundException e) {
             payloadTemporarillyOutOfUse = "File IS NOT HERE you CEILING FAN";
-            stratusphere = status;
         }
 
+        stratusphere = status;
         payload = payloadTemporarillyOutOfUse;
     }
 
     public SendData() {
         payload = "uhhhh we dont know cope and have a burger or smth :P";
+        stratusphere = new Status(505, "NOT OK IDK COPE");
+
     }
 
     public String getFormattedPayload() {

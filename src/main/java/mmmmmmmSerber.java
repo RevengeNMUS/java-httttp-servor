@@ -2,6 +2,7 @@ package main.java;
 
 import main.java.datass.RequestData;
 import main.java.datass.SendData;
+import main.java.datass.Status;
 
 import java.io.InputStream;
 import java.net.*;
@@ -40,13 +41,13 @@ public class mmmmmmmSerber {
 
             if (afileofdoomanddestructionandmaybechad.isFile()) {
                 thedatathatyouwillsendviacarrierpigeontogototheplace = new SendData(
-                        afileofdoomanddestructionandmaybechad
+                        afileofdoomanddestructionandmaybechad, Status.OK
                 );
             } else {
                 String payload =
                         "<p>HA IMAGINE REQUESTING FOR " + requestData.getHeader() + " COULD NOT BE ME IMAGINE</p> " +
                         "<p>HAHAHAHHAHAHAHAHA</p>";
-                thedatathatyouwillsendviacarrierpigeontogototheplace = new SendData(payload);
+                thedatathatyouwillsendviacarrierpigeontogototheplace = new SendData(payload, Status.NOT_FOUND);
             }
 
             printstream.println(thedatathatyouwillsendviacarrierpigeontogototheplace.getFormattedPayload()); //ive oversiimplified. i am not sphere.

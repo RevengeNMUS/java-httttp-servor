@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0a25e04-14e9-4e86-baf8-5f79517aeda1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datass/ContentCreationIsHard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datass/ServerTempleRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/datass/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/datass/SendData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datass/SendData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datass/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datass/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mmmmmmmSerber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mmmmmmmSerber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
